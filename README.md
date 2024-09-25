@@ -1,4 +1,17 @@
-# ALAF - Automatic Labeled And Fine-Tuning Library
+# Automated labeling of training data for improved object detection in traffic videos by fine-tuned deep convolutional neural networks
+
+This repository contains the source code of the paper [Automated labeling of training data for improved object detection in traffic videos by fine-tuned deep convolutional neural networks](https://www.sciencedirect.com/science/article/pii/S0167865523000223).
+
+The contents of this code are provided without any warranty. They are intended for evaluational purposes only.
+
+Any suggestions and bug reports will be welcome.
+
+# Citation
+Please, cite this work as:
+
+García-Aguilar, I., García-González, J., Luque-Baena, R. M., & López-Rubio, E. (2023). Automated labeling of training data for improved object detection in traffic videos by fine-tuned deep convolutional neural networks. In Pattern Recognition Letters (Vol. 167, pp. 45–52). Elsevier BV. [https://doi.org/10.1016/j.patrec.2023.01.015](https://doi.org/10.1016/j.patrec.2023.01.015).
+([https://www.sciencedirect.com/science/article/pii/S0167865523000223](https://www.sciencedirect.com/science/article/pii/S0167865523000223))
+
 
 # Improved object detection in traffic videos by fine-tuning deep convolutional neural networks with automatically labeled training data
 
@@ -68,36 +81,6 @@ make_inference_SR(detect_fn, category_index, ‘/Data/small_objects/Evaluation/1
 A Docker image is included in order to install all the libraries required to run our proposal:
 
 * https://github.com/IvanGarcia7/ALAF/blob/main/Dockerfile
-
-# Information:
-
-If you use some of the sequences established in this repository or our proposal, don't forget to cite both the original datasets as well as the following articles:
-
-*Previous Proposal:
-
-```
-@article{GarcaAguilar2021,
-  doi = {10.1111/exsy.12930},
-  url = {https://doi.org/10.1111/exsy.12930},
-  year = {2021},
-  month = dec,
-  publisher = {Wiley},
-  volume = {39},
-  number = {2},
-  author = {Iv{\'{a}}n Garc{\'{\i}}a-Aguilar and Rafael Marcos Luque-Baena and Ezequiel L{\'{o}}pez-Rubio},
-  title = {Improved detection of small objects in road network sequences using
-		            {CNN}
-		            and super resolution},
-  journal = {Expert Systems}
-}
-```
-
-*This proposal:
-
-```
-Not Available Yet
-```
-
 
 # REQUIREMENTS:
 
